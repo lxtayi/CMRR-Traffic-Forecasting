@@ -1,0 +1,21 @@
+dataset,descriptor,descriptor_label,outcome,association,estimate,ci95_low,ci95_high,controls_for,sensors
+PeMS04,absolute_bias,Absolute residual bias,absolute test MAE reduction,Spearman,0.3023820721655556,0.18800561236000135,0.41368412194829124,none,307
+PeMS04,absolute_bias,Absolute residual bias,absolute test MAE reduction,Partial Spearman,0.34169294665715083,0.23306725680794327,0.44228885872418205,frozen validation node MAE,307
+PeMS04,lag1_strength,Lag-1 dependence,absolute test MAE reduction,Spearman,0.2503647594661199,0.13071611820089787,0.3621440779800854,none,307
+PeMS04,lag1_strength,Lag-1 dependence,absolute test MAE reduction,Partial Spearman,0.2548073875298422,0.1433074555721498,0.36253797074048344,frozen validation node MAE,307
+PeMS04,daily_strength,Daily recurrence,absolute test MAE reduction,Spearman,0.22879148698271137,0.1147730365514466,0.3339344737533657,none,307
+PeMS04,daily_strength,Daily recurrence,absolute test MAE reduction,Partial Spearman,0.23053007736939668,0.12014718672874417,0.33455453094496956,frozen validation node MAE,307
+PeMS04,weekly_strength,Weekly recurrence,absolute test MAE reduction,Spearman,0.33921717932064743,0.23098327762065085,0.4405113484891435,none,307
+PeMS04,weekly_strength,Weekly recurrence,absolute test MAE reduction,Partial Spearman,0.3796486261365843,0.270228145966923,0.47655842426237965,frozen validation node MAE,307
+PeMS04,network_coherence,Network coherence,absolute test MAE reduction,Spearman,0.18351983968002364,0.07413654657393573,0.29073458567126154,none,307
+PeMS04,network_coherence,Network coherence,absolute test MAE reduction,Partial Spearman,0.1912097191207951,0.07869267280590578,0.2991671416995942,frozen validation node MAE,307
+PeMS08,absolute_bias,Absolute residual bias,absolute test MAE reduction,Spearman,0.5224772687025605,0.40096663205517474,0.6285248704651711,none,170
+PeMS08,absolute_bias,Absolute residual bias,absolute test MAE reduction,Partial Spearman,0.4936910225122778,0.34971427788397336,0.6119058089050108,frozen validation node MAE,170
+PeMS08,lag1_strength,Lag-1 dependence,absolute test MAE reduction,Spearman,0.2151904299558503,0.04511337686647148,0.36370858739095924,none,170
+PeMS08,lag1_strength,Lag-1 dependence,absolute test MAE reduction,Partial Spearman,0.19314094703230716,0.01620830118988886,0.35279817846224065,frozen validation node MAE,170
+PeMS08,daily_strength,Daily recurrence,absolute test MAE reduction,Spearman,0.36726815297903653,0.20795629994878087,0.5077901861984058,none,170
+PeMS08,daily_strength,Daily recurrence,absolute test MAE reduction,Partial Spearman,0.4323128384348234,0.28025524240365857,0.5604574592185235,frozen validation node MAE,170
+PeMS08,weekly_strength,Weekly recurrence,absolute test MAE reduction,Spearman,0.20597211790353018,0.046127971000328456,0.3500539145547264,none,170
+PeMS08,weekly_strength,Weekly recurrence,absolute test MAE reduction,Partial Spearman,0.42386011152408504,0.2821722673500813,0.5443074793051654,frozen validation node MAE,170
+PeMS08,network_coherence,Network coherence,absolute test MAE reduction,Spearman,-0.1646460390447054,-0.3127940555196617,-0.01211932325741678,none,170
+PeMS08,network_coherence,Network coherence,absolute test MAE reduction,Partial Spearman,-0.05125508104251348,-0.22645722428155549,0.13122996299063766,frozen validation node MAE,170

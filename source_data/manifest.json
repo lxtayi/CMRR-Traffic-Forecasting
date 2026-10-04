@@ -221,8 +221,8 @@
   },
   {
     "file": "README.md",
-    "sha256": "d58e705261a02e5abc4823b1f16a743419dc14184a16dfa70d4e816831ff4751",
-    "bytes": 660
+    "sha256": "871a5aed6ad63acf7a5a4fe0d89376e0ab5afef16971a8d6adbdb139e39323c4",
+    "bytes": 863
   },
   {
     "file": "residual_structure_before_after.csv",
@@ -290,6 +290,11 @@
     "bytes": 518
   },
   {
+    "file": "TableS13_absolute_node_gain_sensitivity.csv",
+    "sha256": "5986fec0c48639b54556831f6ce4b6e3fc1dbbaf93061430f7e5b9f7633f52c1",
+    "bytes": 3346
+  },
+  {
     "file": "TableS1_PeMS04_online_baselines.csv",
     "sha256": "c75448345ed79b6df463aaf79744155ae62798527f6fc69985e63b3aad78d97e",
     "bytes": 759
@@ -348,5 +353,15 @@
     "file": "TableS9_classical_forecasting_baselines.csv",
     "sha256": "65d53405bb8f8fed84a54a573610c007ed045c3cf305852f650f71d43b66745f",
     "bytes": 2068
+  },
+  {
+    "file": "validation_boundary_selection_audit.csv",
+    "sha256": "50fbf9f154027ae77cbf8af725536c9de8d26b5400d4313ea84bbfb5362d9b12",
+    "bytes": 1532
+  },
+  {
+    "file": "validation_boundary_selection_audit.json",
+    "sha256": "b96109ec8c5ad47451cc39a06d0b057d13df8b3e7a544d04c942d574b0c34c28",
+    "bytes": 6842
   }
 ]

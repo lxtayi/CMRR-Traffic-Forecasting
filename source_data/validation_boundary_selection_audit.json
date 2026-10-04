@@ -1,0 +1,268 @@
+[
+  {
+    "run": "STAEformer PeMS04 s2026",
+    "old_selection": {
+      "ridge": 100.0,
+      "percentage_power": 1.0,
+      "score": 0.9863603381757873
+    },
+    "purged_selection": {
+      "ridge": 100.0,
+      "percentage_power": 1.0,
+      "score": 0.9863576229969381,
+      "MAE": 18.374675750732422,
+      "RMSE": 30.147960662841797,
+      "MAPE": 11.026843070983887
+    },
+    "selection_unchanged": true,
+    "boundary": 2262,
+    "purged_valid_pairs": 23707
+  },
+  {
+    "run": "STAEformer PeMS08 s2026",
+    "old_selection": {
+      "ridge": 1000.0,
+      "percentage_power": 1.0,
+      "score": 0.9593335385686498
+    },
+    "purged_selection": {
+      "ridge": 1000.0,
+      "percentage_power": 1.0,
+      "score": 0.9593159969358721,
+      "MAE": 13.771323204040527,
+      "RMSE": 25.441614151000977,
+      "MAPE": 12.372390747070312
+    },
+    "selection_unchanged": true,
+    "boundary": 2378,
+    "purged_valid_pairs": 13260
+  },
+  {
+    "run": "STID PeMS03 s2026",
+    "old_selection": {
+      "ridge": 100.0,
+      "percentage_power": 1.0,
+      "score": 0.9656653735124349
+    },
+    "purged_selection": {
+      "ridge": 100.0,
+      "percentage_power": 1.0,
+      "score": 0.9656047226331532,
+      "MAE": 13.86607837677002,
+      "RMSE": 22.240337371826172,
+      "MAPE": 13.592994689941406
+    },
+    "selection_unchanged": true,
+    "boundary": 3491,
+    "purged_valid_pairs": 27924
+  },
+  {
+    "run": "STID PeMS04 s2026",
+    "old_selection": {
+      "ridge": 1000.0,
+      "percentage_power": 1.0,
+      "score": 0.9880054043241167
+    },
+    "purged_selection": {
+      "ridge": 1000.0,
+      "percentage_power": 1.0,
+      "score": 0.9880089709278926,
+      "MAE": 18.712852478027344,
+      "RMSE": 30.78177261352539,
+      "MAPE": 11.91379451751709
+    },
+    "selection_unchanged": true,
+    "boundary": 2262,
+    "purged_valid_pairs": 23707
+  },
+  {
+    "run": "STID PeMS07 s2026",
+    "old_selection": {
+      "ridge": 10000.0,
+      "percentage_power": 0.5,
+      "score": 0.9847394000003264
+    },
+    "purged_selection": {
+      "ridge": 10000.0,
+      "percentage_power": 0.5,
+      "score": 0.9846552596382784,
+      "MAE": 18.917383193969727,
+      "RMSE": 32.33763122558594,
+      "MAPE": 8.290651321411133
+    },
+    "selection_unchanged": true,
+    "boundary": 3760,
+    "purged_valid_pairs": 68796
+  },
+  {
+    "run": "STID PeMS08 s2026",
+    "old_selection": {
+      "ridge": 100.0,
+      "percentage_power": 0.5,
+      "score": 0.9321554788577616
+    },
+    "purged_selection": {
+      "ridge": 100.0,
+      "percentage_power": 0.5,
+      "score": 0.9321272991639877,
+      "MAE": 14.505422592163086,
+      "RMSE": 25.408567428588867,
+      "MAPE": 13.631706237792969
+    },
+    "selection_unchanged": true,
+    "boundary": 2378,
+    "purged_valid_pairs": 13260
+  },
+  {
+    "run": "STAEformer PeMS04 s2027",
+    "old_selection": {
+      "ridge": 10000.0,
+      "percentage_power": 0.5,
+      "score": 0.9887055262821515
+    },
+    "purged_selection": {
+      "ridge": 10000.0,
+      "percentage_power": 0.5,
+      "score": 0.9886939311159729,
+      "MAE": 18.375171661376953,
+      "RMSE": 30.533109664916992,
+      "MAPE": 11.092170715332031
+    },
+    "selection_unchanged": true,
+    "boundary": 2262,
+    "purged_valid_pairs": 23707
+  },
+  {
+    "run": "STAEformer PeMS04 s2028",
+    "old_selection": {
+      "ridge": 1000.0,
+      "percentage_power": 1.0,
+      "score": 0.9883854992116793
+    },
+    "purged_selection": {
+      "ridge": 1000.0,
+      "percentage_power": 1.0,
+      "score": 0.9883899692909021,
+      "MAE": 18.443811416625977,
+      "RMSE": 30.789382934570312,
+      "MAPE": 11.155043601989746
+    },
+    "selection_unchanged": true,
+    "boundary": 2262,
+    "purged_valid_pairs": 23707
+  },
+  {
+    "run": "STAEformer PeMS08 s2027",
+    "old_selection": {
+      "ridge": 10000.0,
+      "percentage_power": 0.5,
+      "score": 0.9547450306702593
+    },
+    "purged_selection": {
+      "ridge": 10000.0,
+      "percentage_power": 0.5,
+      "score": 0.954734925086187,
+      "MAE": 13.862963676452637,
+      "RMSE": 25.70547866821289,
+      "MAPE": 12.670402526855469
+    },
+    "selection_unchanged": true,
+    "boundary": 2378,
+    "purged_valid_pairs": 13260
+  },
+  {
+    "run": "STAEformer PeMS08 s2028",
+    "old_selection": {
+      "ridge": 10000.0,
+      "percentage_power": 1.0,
+      "score": 0.9382850605716536
+    },
+    "purged_selection": {
+      "ridge": 10000.0,
+      "percentage_power": 1.0,
+      "score": 0.9382566170862181,
+      "MAE": 13.927470207214355,
+      "RMSE": 25.577661514282227,
+      "MAPE": 13.13813591003418
+    },
+    "selection_unchanged": true,
+    "boundary": 2378,
+    "purged_valid_pairs": 13260
+  },
+  {
+    "run": "STID PeMS04 s2027",
+    "old_selection": {
+      "ridge": 100.0,
+      "percentage_power": 1.0,
+      "score": 0.985956620156963
+    },
+    "purged_selection": {
+      "ridge": 100.0,
+      "percentage_power": 1.0,
+      "score": 0.9859784382985964,
+      "MAE": 18.738840103149414,
+      "RMSE": 30.910276412963867,
+      "MAPE": 11.88654613494873
+    },
+    "selection_unchanged": true,
+    "boundary": 2262,
+    "purged_valid_pairs": 23707
+  },
+  {
+    "run": "STID PeMS04 s2028",
+    "old_selection": {
+      "ridge": 100.0,
+      "percentage_power": 1.0,
+      "score": 0.987524054563306
+    },
+    "purged_selection": {
+      "ridge": 100.0,
+      "percentage_power": 1.0,
+      "score": 0.9875092553740141,
+      "MAE": 18.677003860473633,
+      "RMSE": 30.855451583862305,
+      "MAPE": 11.850801467895508
+    },
+    "selection_unchanged": true,
+    "boundary": 2262,
+    "purged_valid_pairs": 23707
+  },
+  {
+    "run": "STID PeMS08 s2027",
+    "old_selection": {
+      "ridge": 100.0,
+      "percentage_power": 0.5,
+      "score": 0.9308816857163006
+    },
+    "purged_selection": {
+      "ridge": 100.0,
+      "percentage_power": 0.5,
+      "score": 0.9308462842208406,
+      "MAE": 14.558691024780273,
+      "RMSE": 25.57210922241211,
+      "MAPE": 14.769294738769531
+    },
+    "selection_unchanged": true,
+    "boundary": 2378,
+    "purged_valid_pairs": 13260
+  },
+  {
+    "run": "STID PeMS08 s2028",
+    "old_selection": {
+      "ridge": 10000.0,
+      "percentage_power": 0.0,
+      "score": 0.9281888079999493
+    },
+    "purged_selection": {
+      "ridge": 10000.0,
+      "percentage_power": 0.0,
+      "score": 0.9281626605566046,
+      "MAE": 14.47227954864502,
+      "RMSE": 25.306575775146484,
+      "MAPE": 13.471904754638672
+    },
+    "selection_unchanged": true,
+    "boundary": 2378,
+    "purged_valid_pairs": 13260
+  }
+]
