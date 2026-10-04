@@ -79,6 +79,23 @@ def route(recent: np.ndarray, features: np.ndarray, coefficients: np.ndarray) ->
     return recent + correction.astype(np.float32)
 
 
+def purge_fitting_boundary(valid: np.ndarray, boundary: int) -> np.ndarray:
+    """Remove fitting pairs whose targets fall in the selection suffix.
+
+    Horizon indices are zero based in the arrays, so a pair at origin ``t``
+    and array horizon ``h`` has target time ``t + h + 1``. The selection
+    suffix begins at ``boundary``; therefore a fitting pair is retained only
+    when ``t + h + 1 < boundary``.
+    """
+    if boundary <= 0 or boundary > valid.shape[0]:
+        raise ValueError("boundary must lie within the validation sequence")
+    fitting_valid = valid[:boundary].copy()
+    origins = np.arange(boundary, dtype=np.int64)[:, None, None]
+    horizons = np.arange(1, valid.shape[1] + 1, dtype=np.int64)[None, :, None]
+    fitting_valid &= origins + horizons < boundary
+    return fitting_valid
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--prediction-root", required=True)
@@ -109,12 +126,14 @@ def main() -> None:
     target = val["true"] - val_recent
 
     # Select regularization on the chronologically last validation third.
+    # Purge horizon-dependent boundary pairs whose targets fall in that suffix.
     boundary = int(len(val["pred"]) * 2 / 3)
+    fitting_valid = purge_fitting_boundary(valid, boundary)
     candidates = []
     for ridge in (100.0, 1000.0, 10000.0):
         for percentage_power in (0.0, 0.5, 1.0):
             coef = robust_coefficients(
-                val_features[:boundary], target[:boundary], valid[:boundary], ridge=ridge,
+                val_features[:boundary], target[:boundary], fitting_valid, ridge=ridge,
                 magnitude=np.abs(val["true"][:boundary]), percentage_power=percentage_power,
             )
             prediction = route(val_recent[boundary:], val_features[boundary:], coef)
@@ -152,6 +171,11 @@ def main() -> None:
         "lags": list(lags),
         "recent_memory_config": config,
         "selection": selected,
+        "validation_selection_protocol": {
+            "boundary_origin": boundary,
+            "target_overlap_purged": True,
+            "purged_origins_at_horizon_h": "h for one-based horizon h",
+        },
         "validation_candidates": candidates,
         "coefficients_by_horizon": coefficients.tolist(),
         "base_test": base,

@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the accompanying CMRR manuscript."
 title: "CMRR: Causal Multi-Scale Residual Routing for Traffic Forecasting"
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-10-04
 authors:
   - family-names: Liu

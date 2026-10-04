@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cmrr-traffic-forecasting"
-version = "1.0.0"
+version = "1.0.1"
 description = "Causal Multi-Scale Residual Routing for frozen multi-horizon traffic forecasters"
 readme = "README.md"
 requires-python = ">=3.10"

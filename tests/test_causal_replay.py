@@ -1,7 +1,7 @@
 import numpy as np
 
 from cmrr.causal_error_memory import causal_memory
-from cmrr.multiscale_causal_router import seasonal_features
+from cmrr.multiscale_causal_router import purge_fitting_boundary, seasonal_features
 
 
 def test_future_target_cannot_change_earlier_corrections() -> None:
@@ -30,3 +30,14 @@ def test_periodic_features_use_only_requested_lag() -> None:
     features = seasonal_features(pred, true, lags=(3,), clip=40.0)
     np.testing.assert_array_equal(features[:3], 0.0)
     np.testing.assert_allclose(features[3:, :, :, 0], 1.0)
+
+
+def test_validation_fitting_boundary_purges_horizon_overlap() -> None:
+    valid = np.ones((8, 3, 2), dtype=bool)
+    fitting = purge_fitting_boundary(valid, boundary=6)
+
+    assert fitting.shape == (6, 3, 2)
+    # Horizons 1, 2, and 3 purge the last 1, 2, and 3 fitting origins.
+    np.testing.assert_array_equal(fitting[:, 0, 0], [True, True, True, True, True, False])
+    np.testing.assert_array_equal(fitting[:, 1, 0], [True, True, True, True, False, False])
+    np.testing.assert_array_equal(fitting[:, 2, 0], [True, True, True, False, False, False])

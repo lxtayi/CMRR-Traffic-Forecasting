@@ -46,6 +46,8 @@ CMRR consumes frozen-backbone predictions. Place `val.npz` and `test.npz` in one
 
 For the PeMS experiments, recorded zero-valued targets are treated as invalid. The same target-defined mask is used for metrics, recent-memory updates, periodic retrieval, and router fitting.
 
+During validation model selection, a fitting pair is retained only when its target time remains inside the fitting prefix. This horizon-dependent purge prevents the router-fitting prefix from using targets that fall in the validation-selection suffix.
+
 ## Run CMRR
 
 First calibrate the recent causal memory:
