@@ -1,0 +1,31 @@
+{
+  "seed": 2026,
+  "sampling_interval_minutes": 5,
+  "history_steps": 12,
+  "forecast_horizons": 12,
+  "chronological_split": [0.6, 0.2, 0.2],
+  "zero_target_mask": true,
+  "periodic_lags": [288, 2016],
+  "residual_clip_for_periodic_features": 40.0,
+  "huber_delta": 1.5,
+  "irls_iterations": 6,
+  "coefficient_bounds": [-1.0, 1.0],
+  "magnitude_floor": 5.0,
+  "router_parameters": 48,
+  "dataset_specific_settings": {
+    "PeMS04": {
+      "recent_alpha": 0.02,
+      "recent_clip": 5.0,
+      "recent_node_weight": 0.8,
+      "ridge": 100.0,
+      "magnitude_power": 1.0
+    },
+    "PeMS08": {
+      "recent_alpha": 0.05,
+      "recent_clip": 20.0,
+      "recent_node_weight": 0.6,
+      "ridge": 1000.0,
+      "magnitude_power": 1.0
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "dataset": "PEMS08",
+  "method": "A2TTA full FiLM global adapter plus discardable local context clone",
+  "scope_note": "Uses the official ResidualCalibrator, hybrid context weighting, global delayed-label updates, and per-origin discardable local clone on the fixed-graph prediction arrays.",
+  "official_source": "<artifact_root>\\external\\A2TTA",
+  "protocol": {
+    "warmup_epochs": 3,
+    "label_delay_steps": 12,
+    "candidate_pool_size": 512,
+    "adapt_every_origins": 64,
+    "adapt_steps": 3,
+    "learning_rate": 0.001,
+    "architecture": "film",
+    "local_steps": 3,
+    "input_normalization": "training-split z score"
+  },
+  "warmup_log": [
+    {
+      "epoch": 1,
+      "train_l1": 12.460913981710162,
+      "MAE": 13.490743637084961,
+      "RMSE": 23.99372673034668,
+      "MAPE": 9.866060256958008
+    },
+    {
+      "epoch": 2,
+      "train_l1": 12.455914293016706,
+      "MAE": 13.491363525390625,
+      "RMSE": 23.998397827148438,
+      "MAPE": 9.872114181518555
+    },
+    {
+      "epoch": 3,
+      "train_l1": 12.453947918755668,
+      "MAE": 13.494056701660156,
+      "RMSE": 23.999338150024414,
+      "MAPE": 9.874584197998047
+    }
+  ],
+  "base_test": {
+    "MAE": 13.449321746826172,
+    "RMSE": 23.23230743408203,
+    "MAPE": 8.814688682556152
+  },
+  "adapted_test": {
+    "MAE": 13.341910362243652,
+    "RMSE": 23.01529312133789,
+    "MAPE": 8.783243179321289
+  },
+  "relative_improvement_percent": {
+    "MAE": 0.7986379283986341,
+    "RMSE": 0.9341057204923968,
+    "MAPE": 0.35673980519689175
+  },
+  "online_updates": 165,
+  "online_seconds": 136.8506511999949,
+  "online_ms_per_origin": 38.37651463824871,
+  "trainable_parameters": 11321
+}

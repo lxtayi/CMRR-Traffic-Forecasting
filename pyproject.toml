@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cmrr-traffic-forecasting"
+version = "1.0.0"
+description = "Causal Multi-Scale Residual Routing for frozen multi-horizon traffic forecasters"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Xintian Liu", email = "xintianliu@connect.hku.hk"}]
+dependencies = [
+  "numpy>=1.26,<3",
+  "numba>=0.59",
+  "pandas>=2.0",
+  "matplotlib>=3.8",
+]
+
+[tool.setuptools.packages.find]
+include = ["cmrr*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

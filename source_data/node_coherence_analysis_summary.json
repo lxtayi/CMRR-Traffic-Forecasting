@@ -1,0 +1,44 @@
+[
+  {
+    "dataset": "PeMS04",
+    "sensors": 307,
+    "frozen_metrics": {
+      "MAE": 18.164531707763672,
+      "RMSE": 29.72980499267578,
+      "MAPE": 11.924560546875
+    },
+    "full_metrics": {
+      "MAE": 17.88142967224121,
+      "RMSE": 29.44806480407715,
+      "MAPE": 11.745647430419922
+    },
+    "node_only_metrics": {
+      "MAE": 17.873153686523438,
+      "RMSE": 29.437543869018555,
+      "MAPE": 11.750320434570312
+    },
+    "positive_gain_sensors": 284,
+    "positive_network_benefit_sensors": 97
+  },
+  {
+    "dataset": "PeMS08",
+    "sensors": 170,
+    "frozen_metrics": {
+      "MAE": 13.449321746826172,
+      "RMSE": 23.23230743408203,
+      "MAPE": 8.814688682556152
+    },
+    "full_metrics": {
+      "MAE": 13.0425443649292,
+      "RMSE": 22.73308563232422,
+      "MAPE": 8.665827751159668
+    },
+    "node_only_metrics": {
+      "MAE": 13.132283210754395,
+      "RMSE": 22.821687698364258,
+      "MAPE": 8.813063621520996
+    },
+    "positive_gain_sensors": 145,
+    "positive_network_benefit_sensors": 133
+  }
+]

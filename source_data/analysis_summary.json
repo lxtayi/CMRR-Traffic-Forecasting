@@ -1,0 +1,71 @@
+{
+  "distribution": [
+    {
+      "dataset": "PeMS04",
+      "sensors": 307,
+      "sensor_improved_count": 284,
+      "sensor_improved_percent": 92.50814332247556,
+      "sensor_gain_median_percent": 1.1884000704285111,
+      "sensor_gain_q25_percent": 0.5546431362044456,
+      "sensor_gain_q75_percent": 2.2310506871371327,
+      "sensor_gain_q05_percent": -0.12260014186173955,
+      "sensor_gain_q95_percent": 14.231001870644791,
+      "daily_blocks": 12,
+      "daily_win_count": 12,
+      "daily_win_percent": 100.0
+    },
+    {
+      "dataset": "PeMS08",
+      "sensors": 170,
+      "sensor_improved_count": 145,
+      "sensor_improved_percent": 85.29411764705883,
+      "sensor_gain_median_percent": 1.6208256315225391,
+      "sensor_gain_q25_percent": 0.4343090988847479,
+      "sensor_gain_q75_percent": 7.0432242345715235,
+      "sensor_gain_q05_percent": -0.5698495661511871,
+      "sensor_gain_q95_percent": 19.89868958532245,
+      "daily_blocks": 13,
+      "daily_win_count": 13,
+      "daily_win_percent": 100.0
+    }
+  ],
+  "correction_magnitude": [
+    {
+      "dataset": "PeMS04",
+      "valid_observations": 12340883,
+      "median_abs_correction": 1.8036924600601196,
+      "p95_abs_correction": 7.410306930541992,
+      "median_correction_to_flow_percent": 1.1156350374221802,
+      "p95_correction_to_flow_percent": 6.49556303024292,
+      "maximum_reconstruction_error": 6.103515625e-05
+    },
+    {
+      "dataset": "PeMS08",
+      "valid_observations": 7250061,
+      "median_abs_correction": 1.633696436882019,
+      "p95_abs_correction": 8.708295822143555,
+      "median_correction_to_flow_percent": 0.9386053085327148,
+      "p95_correction_to_flow_percent": 7.269293785095215,
+      "maximum_reconstruction_error": 6.103515625e-05
+    }
+  ],
+  "horizon_intervals_entirely_positive": {
+    "PeMS04": {
+      "MAE": 12,
+      "RMSE": 12,
+      "MAPE": 12
+    },
+    "PeMS08": {
+      "MAE": 12,
+      "RMSE": 12,
+      "MAPE": 11
+    }
+  },
+  "horizons_per_dataset_metric": 12,
+  "bootstrap": {
+    "method": "paired moving-free daily-block resampling",
+    "block_origins": 288,
+    "repetitions": 2000,
+    "seed": 2026
+  }
+}

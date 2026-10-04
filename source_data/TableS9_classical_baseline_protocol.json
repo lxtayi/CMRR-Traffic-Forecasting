@@ -1,0 +1,59 @@
+{
+  "protocol": {
+    "horizon": 12,
+    "target_mask": "y != 0",
+    "historical_average": "node-wise mean by five-minute time-of-day slot using training data only",
+    "seasonal_missing_source": "fall back to historical average",
+    "ridge_selection": "node-wise AR(12), alpha selected by validation MAE, fit on training split"
+  },
+  "datasets": {
+    "PEMS03": {
+      "origins": 5237,
+      "nodes": 358,
+      "selected_alpha": 0.1,
+      "validation_mae_by_alpha": {
+        "0.1": 22.426510057708267,
+        "1.0": 22.42676939480474,
+        "10.0": 22.429886474276838,
+        "100.0": 22.48870917827008,
+        "1000.0": 23.476857688282116
+      }
+    },
+    "PEMS04": {
+      "origins": 3394,
+      "nodes": 307,
+      "selected_alpha": 0.1,
+      "validation_mae_by_alpha": {
+        "0.1": 29.698393345383824,
+        "1.0": 29.70028185420878,
+        "10.0": 29.72117013711985,
+        "100.0": 29.93509954552794,
+        "1000.0": 32.060902385436634
+      }
+    },
+    "PEMS07": {
+      "origins": 5640,
+      "nodes": 883,
+      "selected_alpha": 1.0,
+      "validation_mae_by_alpha": {
+        "0.1": 31.10767209989867,
+        "1.0": 31.107661361297602,
+        "10.0": 31.123267156950305,
+        "100.0": 31.31717778458568,
+        "1000.0": 32.94983207982143
+      }
+    },
+    "PEMS08": {
+      "origins": 3566,
+      "nodes": 170,
+      "selected_alpha": 0.1,
+      "validation_mae_by_alpha": {
+        "0.1": 23.074962156951234,
+        "1.0": 23.076549796981794,
+        "10.0": 23.09617645908096,
+        "100.0": 23.314326342382454,
+        "1000.0": 25.345730588695435
+      }
+    }
+  }
+}

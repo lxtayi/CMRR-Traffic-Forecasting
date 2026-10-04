@@ -1,0 +1,3 @@
+﻿dataset,method,test_gradient,adaptive_coefficients_at_test,coefficient_update_interval_origins,ridge,coefficient_clipping,online_update_and_prediction_ms_per_origin_precomputed_features,adaptive_normal_equation_state_kib,note
+PeMS04,Expanding online ridge,No,72,12,1000.0,"[-1,1]",0.46900715969797085,4.5,"Excludes the shared causal feature construction; includes normal-equation updates, solves, and prediction."
+PeMS04,CMRR,No,0,0,100.0,Fixed validation coefficients,,0.0,Router coefficients are frozen; only deterministic residual states change.

@@ -1,0 +1,3 @@
+dataset,selection_period,selection_rule,sensor_index,validation_median_improvement_percent,selected_sensor_validation_improvement_percent,display_window,valid_display_targets,display_targets,eligible_sensors,total_sensors
+PeMS04,validation,"among sensors with all 288 first-test-day horizon-1 targets valid, validation CMRR MAE improvement closest to the all-sensor validation median",171,0.8882595970568622,0.8859894984575785,"first test day, horizon 1",288,288,275,307
+PeMS08,validation,"among sensors with all 288 first-test-day horizon-1 targets valid, validation CMRR MAE improvement closest to the all-sensor validation median",44,0.8862686002195781,0.9105497235159026,"first test day, horizon 1",288,288,160,170

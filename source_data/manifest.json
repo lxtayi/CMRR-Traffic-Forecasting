@@ -1,0 +1,352 @@
+[
+  {
+    "file": "A2TTA_full_paired_bootstrap.csv",
+    "sha256": "0b5be9f2dd25898f731cf020397d3a467a6a75b5aac413ad581c4765c7574f23",
+    "bytes": 686
+  },
+  {
+    "file": "A2TTA_full_PeMS04_result.json",
+    "sha256": "a871c726dd888f4f4347479ba55fb1a5f4e18467d85b86b505cd3497053ec60f",
+    "bytes": 1726
+  },
+  {
+    "file": "A2TTA_full_PeMS08_result.json",
+    "sha256": "4ab02bef9fe157251cf5cbe1be2076b3ee4239051cd2dc978d9626289fe17853",
+    "bytes": 1736
+  },
+  {
+    "file": "A2TTA_full_vs_CMRR_bootstrap.csv",
+    "sha256": "0b5be9f2dd25898f731cf020397d3a467a6a75b5aac413ad581c4765c7574f23",
+    "bytes": 686
+  },
+  {
+    "file": "analysis_summary.json",
+    "sha256": "f2136d21a3a8aedd33faf1add34c1a3ee2c04a5056c9a7382d7bd2adb637ce54",
+    "bytes": 2226
+  },
+  {
+    "file": "cold_start_recovery.csv",
+    "sha256": "26013e8311ca9df64bbdacce248fe3ec5bcfa27ea36edd87137f4feb5f4fd75c",
+    "bytes": 5762
+  },
+  {
+    "file": "cross_backbone_router_transfer.csv",
+    "sha256": "e805d253fa9297edb6949cd48a18c0e09fde3edbb57089e2c941852897eaa8db",
+    "bytes": 2656
+  },
+  {
+    "file": "Figure2_daily_block_win_rate.csv",
+    "sha256": "9308c0e9d503bb2dc7dbf6ca1e3b3761c1d8a79d86256451c6d14ab8fc265db4",
+    "bytes": 2230
+  },
+  {
+    "file": "Figure2_distribution_summary.csv",
+    "sha256": "3860e245490f03bcca29deeb532262bcf307ab9d84523c1a1d5bcf1b93fd14ca",
+    "bytes": 517
+  },
+  {
+    "file": "Figure2_sensorwise_MAE_distribution.csv",
+    "sha256": "5de277f96b95e27edc72d484073c4e876844e1ac694215e4717c1eb1f289ac04",
+    "bytes": 37681
+  },
+  {
+    "file": "Figure3_horizon_paired_daily_block_CI.csv",
+    "sha256": "a4684682ced5e3b6a2dced6d0fb10d3628274bc96741bf49bac04b84114e71d0",
+    "bytes": 9099
+  },
+  {
+    "file": "Figure4_PeMS04_residual_acf.csv",
+    "sha256": "86d03b43aed75ac4f72c7e24c8c04776fa78b7229a833809d4217083a7fff296",
+    "bytes": 218005
+  },
+  {
+    "file": "Figure4_PeMS04_residual_nodes.csv",
+    "sha256": "d70ac0bc8d8b6485d160934b2d421763db14a526344999b5234e7f79d7fd0318",
+    "bytes": 9456
+  },
+  {
+    "file": "Figure4_PeMS04_residual_time.csv",
+    "sha256": "f20439560a5e5ea3ea2db0c006e039ddb6daf5c86100fbc7b9638eccfaf1278c",
+    "bytes": 201015
+  },
+  {
+    "file": "Figure4_PeMS08_residual_acf.csv",
+    "sha256": "bbfe64e097a93c78fe4df929951f145da90c7963f113bb3edcfac849f7de7f9e",
+    "bytes": 216796
+  },
+  {
+    "file": "Figure4_PeMS08_residual_nodes.csv",
+    "sha256": "a745919450724581e323a3436d3732506f62f9a53e0de6b2caa2f98d69d600ae",
+    "bytes": 5268
+  },
+  {
+    "file": "Figure4_PeMS08_residual_time.csv",
+    "sha256": "6abe5fd20b0f53d061ed778ba0f3b3cbdd40eeef00e0ce064aa9e1ced5c5a6d8",
+    "bytes": 202297
+  },
+  {
+    "file": "Figure5_coherence_tertiles.csv",
+    "sha256": "ea66777206c862df785195373de8e1067156875ed467da17dcdf32e4638493b7",
+    "bytes": 698
+  },
+  {
+    "file": "Figure5_network_benefit_trend.csv",
+    "sha256": "840e7e1c0cdae8e144263626ee8466c711be9be57b7b76585e1ed8087d8e550d",
+    "bytes": 370
+  },
+  {
+    "file": "Figure5_sensor_descriptor_correlations.csv",
+    "sha256": "1f7ecaecb68ce9bca2ab8398e5bfb870275b09f289993f95906f383606581141",
+    "bytes": 4687
+  },
+  {
+    "file": "Figure5_sensor_level_values.csv",
+    "sha256": "b47c3b8896f69158f1599e1395c32c19bd110ed52e044d4ef4bbee9156fc5cd8",
+    "bytes": 94190
+  },
+  {
+    "file": "Figure6_PeMS04_mechanism_ablation.csv",
+    "sha256": "53d40bfa15bd7c8980347d9091a67b5fb5ea3d3be3009deb19e370e8af9ea6a6",
+    "bytes": 540
+  },
+  {
+    "file": "Figure6_PeMS04_relative_metrics.csv",
+    "sha256": "80787c5ab6280f4ce5c54360d1886e6341661620d0a74167b27251186b3f562d",
+    "bytes": 880
+  },
+  {
+    "file": "Figure6_PeMS04_volume_bins.csv",
+    "sha256": "785cfad79ffe892d12b67ce9c8c338b90959a5d293af8b2604ffbec01d442d3c",
+    "bytes": 573
+  },
+  {
+    "file": "Figure6_PeMS08_mechanism_ablation.csv",
+    "sha256": "58ff0fc0fbfd76e0de579a42a013e58d725efe5ae4eff9ae8a4b31befade7798",
+    "bytes": 533
+  },
+  {
+    "file": "Figure6_PeMS08_relative_metrics.csv",
+    "sha256": "367bd43eb544fbf9aed17587e071933c8121b881efb23792de70f224c6d57600",
+    "bytes": 871
+  },
+  {
+    "file": "Figure6_PeMS08_volume_bins.csv",
+    "sha256": "9a33d1ccaac62f17a9d53a463b06378bed85c748bb71aa413596d0cd0de70580",
+    "bytes": 576
+  },
+  {
+    "file": "Figure7_calibration_prefix.csv",
+    "sha256": "43844100b09fa6db1afa89227569423ca2095886e9a38aebfdbd40063c9a3f3e",
+    "bytes": 1290
+  },
+  {
+    "file": "Figure7_correction_decomposition.csv",
+    "sha256": "f99021b4400cdad38682883709ad12472a6f54610f29ff6745ecee50ebcde824",
+    "bytes": 61141
+  },
+  {
+    "file": "Figure7_correction_magnitude_summary.csv",
+    "sha256": "1a9d619cb230d756575f94f088b14dc0ce5556d82a100ce1476ceaa314342932",
+    "bytes": 374
+  },
+  {
+    "file": "Figure7_example_selection.csv",
+    "sha256": "817dc6a4b36d9e8f3a9b86c94d51f03272e3abfe0b46187bb875ababb292225f",
+    "bytes": 722
+  },
+  {
+    "file": "Figure7_router_coefficients.csv",
+    "sha256": "20b586d6de4edb290fd82acf245845e47e9ef06b5727b5e241d7c896432382df",
+    "bytes": 5337
+  },
+  {
+    "file": "Figure8_PeMS04_feedback_stress.csv",
+    "sha256": "66ffc7358710fda3f56eed6e8bc80960fde5bb9b448e6b9dc08497e10d573feb",
+    "bytes": 819
+  },
+  {
+    "file": "Figure8_PeMS08_feedback_stress.csv",
+    "sha256": "fc981cfa72894862ef124f86ad1cd4157fe501887cebbadf938906eb85544730",
+    "bytes": 808
+  },
+  {
+    "file": "Figure9_official_STID_directed_transfers.csv",
+    "sha256": "5203ed5ca5e2732116ca4660aab77f078d92cb623077bebf190ce2b66ddb7f37",
+    "bytes": 2467
+  },
+  {
+    "file": "forecast_revision_stability.csv",
+    "sha256": "fe976a25ff4148d7b8003be37271e6fcca02d6f758e785c93cf3035f8de056b9",
+    "bytes": 2082
+  },
+  {
+    "file": "metric_reproduction_check.csv",
+    "sha256": "3174962c35a87b7b23d5ee3f587a5b7ecfd8d3cbd0b1101b0256cf5031137c01",
+    "bytes": 329
+  },
+  {
+    "file": "node_coherence_analysis_summary.json",
+    "sha256": "886ba1f32bcb368802eec5db81dec3a55b33d0712e81bea9b8e0090816e9a69f",
+    "bytes": 1083
+  },
+  {
+    "file": "PeMS04_initialization_sensitivity.csv",
+    "sha256": "030abb8054a4841850faaf1680b5caa4a106a3621c1be8024c2a20edb974d078",
+    "bytes": 390
+  },
+  {
+    "file": "PeMS04_missing_feedback_masks.csv",
+    "sha256": "7f4529cc1d37db31fd86ebe3dfaa164cf6ebb885f2e2cba242bce9a473bffdc3",
+    "bytes": 2359
+  },
+  {
+    "file": "PeMS04_online_ridge_cost.csv",
+    "sha256": "e6b867429c56ab8db127896d13a1ccf573d4133df56aec1612b22a1017318638",
+    "bytes": 555
+  },
+  {
+    "file": "PeMS08_initialization_sensitivity.csv",
+    "sha256": "0b6e1ee949bc231b8ee02fd6a274b8050866e744b5bf1cd73af942fc6d41527e",
+    "bytes": 390
+  },
+  {
+    "file": "PeMS08_missing_feedback_masks.csv",
+    "sha256": "d454b24b09e9a3f3c84b92c6dbacaa3d3c234b4f6ee5657eb8dc28fa81c0cc13",
+    "bytes": 2345
+  },
+  {
+    "file": "PeMS08_online_ridge_cost.csv",
+    "sha256": "e0887e3f2ab2da57224a05aa6cf3e30cc7d3d387d5e434c64768c1b3d9c73b34",
+    "bytes": 556
+  },
+  {
+    "file": "README.md",
+    "sha256": "d58e705261a02e5abc4823b1f16a743419dc14184a16dfa70d4e816831ff4751",
+    "bytes": 660
+  },
+  {
+    "file": "residual_structure_before_after.csv",
+    "sha256": "c2fa895a8f235a96b5a2a61cabe0b7da9785b6574fd34dfe05ab88ce51876308",
+    "bytes": 2216
+  },
+  {
+    "file": "Router_average_diagnostic.csv",
+    "sha256": "e9699dab2069d68abdfca5e09ac1a08bd5741c7387d208bdca64c20491248715",
+    "bytes": 1660
+  },
+  {
+    "file": "router_objective_two_factor_ablation.csv",
+    "sha256": "1fbf5a83fe2b6e84619996fa9125b66133e3d0bc4703e758bf94b32a89626742",
+    "bytes": 2042
+  },
+  {
+    "file": "STAEformer_inference_latency.csv",
+    "sha256": "f069a3059eb53fca071d0baeabec4c2acc2572155b8757d5df16ec4473cb663d",
+    "bytes": 239
+  },
+  {
+    "file": "Table3_5_and_Figure2_checkpoint_results.csv",
+    "sha256": "154c40e48dd6ecdf2b3e95c2cd21226f7c06f18ef5d16a461aa9b81d55fbfbb0",
+    "bytes": 6126
+  },
+  {
+    "file": "Table3_controlled_basic_baselines.csv",
+    "sha256": "5a3a08ea7d6bbb95baaf7119fd83f6b48759d7579eaa3d2ff47014789889a302",
+    "bytes": 2024
+  },
+  {
+    "file": "Table5_and_Figure2_checkpoint_summary.csv",
+    "sha256": "6e9cc301b2c5d6cb65eae618019e3c89675d93dacecf0a5b401730ebc5a8e310",
+    "bytes": 1832
+  },
+  {
+    "file": "Table6_online_comparison.csv",
+    "sha256": "7479c420d2cfb99903ac6aaf33a81783fc24ded01e3d241dfa28e7253551605e",
+    "bytes": 853
+  },
+  {
+    "file": "Table7_PeMS04_protocol_validity.csv",
+    "sha256": "abea020151e621905262b49d775edab7906993bdec978ddb5e7a9d9306dbef23",
+    "bytes": 361
+  },
+  {
+    "file": "Table7_PeMS08_protocol_validity.csv",
+    "sha256": "27c9800e42877197185017c8c151ea9f5b48cd022e66445bb0608051da5d43f6",
+    "bytes": 365
+  },
+  {
+    "file": "Table9_multiscale_ablation.csv",
+    "sha256": "ead0646021adb4358479aa62ec36ee8979c69088d16da20b879a1c3b3d7b4147",
+    "bytes": 510
+  },
+  {
+    "file": "Table_backbone_inference_latency.csv",
+    "sha256": "f069a3059eb53fca071d0baeabec4c2acc2572155b8757d5df16ec4473cb663d",
+    "bytes": 239
+  },
+  {
+    "file": "Table_runtime_benchmarks.csv",
+    "sha256": "860cb7f38e3400698bc1e3d441c0c426f7468598170d3e5aeecb28bf6d6a07a2",
+    "bytes": 518
+  },
+  {
+    "file": "TableS1_PeMS04_online_baselines.csv",
+    "sha256": "c75448345ed79b6df463aaf79744155ae62798527f6fc69985e63b3aad78d97e",
+    "bytes": 759
+  },
+  {
+    "file": "TableS1_PeMS08_online_baselines.csv",
+    "sha256": "771842d013e7dc8b1840ba650513036a9f701f6a3ce94a73ee64ca2c33c9c444",
+    "bytes": 758
+  },
+  {
+    "file": "TableS2_traffic_regimes.csv",
+    "sha256": "da2405bee83969ab05434243bfd835afd98d32f864509e690cb2b190e731e762",
+    "bytes": 4485
+  },
+  {
+    "file": "TableS4_PeMS04_router_sample_efficiency.csv",
+    "sha256": "2f29d25bc5994c72416255e0e7ef0a5f70173210403f1390379c3bf262d63e6b",
+    "bytes": 502
+  },
+  {
+    "file": "TableS4_PeMS08_router_sample_efficiency.csv",
+    "sha256": "16e7922b708b02f51472375903a73833278d97d97bcb62602b6831c9ba9624ec",
+    "bytes": 493
+  },
+  {
+    "file": "TableS5_PeMS04_block_sensitivity.csv",
+    "sha256": "a16386e09b4c0043f80fd53c3659536c7576e29e341e7201076d3bcc7bea1dc4",
+    "bytes": 1272
+  },
+  {
+    "file": "TableS5_PeMS08_block_sensitivity.csv",
+    "sha256": "818dc2caed2886caf6b55ef5f9378414bc146582a40733c6d62f6e70557e4e16",
+    "bytes": 1272
+  },
+  {
+    "file": "TableS6_PeMS04_mechanism_bootstrap.csv",
+    "sha256": "50d120b33778fe5180fa8d1f1bc185a82d8349719bdd4fe7416219318762c0eb",
+    "bytes": 1919
+  },
+  {
+    "file": "TableS6_PeMS08_mechanism_bootstrap.csv",
+    "sha256": "54f795675e39ce49eefd6bbbaab4c00a1bbb7dc80a0256c430cdea282efed14b",
+    "bytes": 1903
+  },
+  {
+    "file": "TableS7_official_STID_router_similarity.csv",
+    "sha256": "46b59487fadd08db8975aa900571faa57b5f5b44e059bb8ebab3a938bd4aa910",
+    "bytes": 379
+  },
+  {
+    "file": "TableS9_classical_baseline_protocol.json",
+    "sha256": "547ab54d7edff9e382571234f9b98299a0c24691dd19f1570d79973ecbf3398e",
+    "bytes": 1678
+  },
+  {
+    "file": "TableS9_classical_forecasting_baselines.csv",
+    "sha256": "65d53405bb8f8fed84a54a573610c007ed045c3cf305852f650f71d43b66745f",
+    "bytes": 2068
+  }
+]

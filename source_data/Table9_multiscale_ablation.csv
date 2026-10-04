@@ -1,0 +1,11 @@
+dataset,evidence,MAE,RMSE,MAPE_percent
+PeMS04,Frozen backbone,18.1645,29.7298,11.9246
+PeMS04,Recent only,18.0809,29.6616,11.8512
+PeMS04,Recent + daily,17.9899,29.5499,11.8117
+PeMS04,Recent + weekly,17.9413,29.5324,11.7883
+PeMS04,Recent + daily + weekly,17.8814,29.4481,11.7456
+PeMS08,Frozen backbone,13.4493,23.2323,8.8147
+PeMS08,Recent only,13.2996,23.0772,8.7466
+PeMS08,Recent + daily,13.1928,22.9113,8.7367
+PeMS08,Recent + weekly,13.1074,22.8445,8.6629
+PeMS08,Recent + daily + weekly,13.0425,22.7331,8.6658

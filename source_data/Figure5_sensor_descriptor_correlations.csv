@@ -1,0 +1,35 @@
+dataset,descriptor,descriptor_label,association,estimate,ci95_low,ci95_high,controls_for,sensors
+PeMS04,frozen_val_mae,Frozen validation MAE,Spearman,-0.41363516090475283,-0.5164757038549679,-0.3026653200867348,none,307
+PeMS04,absolute_bias,Absolute residual bias,Spearman,0.03265333376465778,-0.0976831761543152,0.16789818011978466,none,307
+PeMS04,absolute_bias,Absolute residual bias,Partial Spearman,0.28698512712817037,0.18468788531200328,0.3813908231015447,frozen validation node MAE,307
+PeMS04,residual_variability,Residual variability,Spearman,-0.40700852446397573,-0.5083940819279025,-0.2920242348565491,none,307
+PeMS04,residual_variability,Residual variability,Partial Spearman,0.00828323124991861,-0.11423793847988874,0.11915531403293997,frozen validation node MAE,307
+PeMS04,lag1_strength,Lag-1 dependence,Spearman,0.15553434877060093,0.03686711774361619,0.2753276171266089,none,307
+PeMS04,lag1_strength,Lag-1 dependence,Partial Spearman,0.2683574597445901,0.15583487563048426,0.37363605676392164,frozen validation node MAE,307
+PeMS04,daily_strength,Daily recurrence,Spearman,0.22862020141192396,0.11941536092298502,0.33384334672880245,none,307
+PeMS04,daily_strength,Daily recurrence,Partial Spearman,0.2040890604495694,0.09219151866013624,0.3078025625501362,frozen validation node MAE,307
+PeMS04,weekly_strength,Weekly recurrence,Spearman,0.5268901756734676,0.42078922061924595,0.6218058852208426,none,307
+PeMS04,weekly_strength,Weekly recurrence,Partial Spearman,0.4220066828984308,0.3130279558418739,0.5226488336937771,frozen validation node MAE,307
+PeMS04,mean_flow,Mean traffic flow,Spearman,-0.21122833507880537,-0.31540677625213487,-0.10129501772307177,none,307
+PeMS04,mean_flow,Mean traffic flow,Partial Spearman,0.17965054570078165,0.06338355475307177,0.2825903017163773,frozen validation node MAE,307
+PeMS04,flow_variability,Traffic-flow variability,Spearman,-0.09036810842596836,-0.19767505742153035,0.02523096728384104,none,307
+PeMS04,flow_variability,Traffic-flow variability,Partial Spearman,0.28228334422632334,0.17361860584422079,0.38036701886230506,frozen validation node MAE,307
+PeMS04,network_coherence,Network coherence,Spearman,0.34558709477276256,0.2294577016516279,0.4549774474823655,none,307
+PeMS04,network_coherence,Network coherence,Partial Spearman,0.27048452178837806,0.15605117535786292,0.37949966167961646,frozen validation node MAE,307
+PeMS08,frozen_val_mae,Frozen validation MAE,Spearman,-0.4487478703720667,-0.5675771960254904,-0.30029412429252467,none,170
+PeMS08,absolute_bias,Absolute residual bias,Spearman,0.03227264122715421,-0.12323490674626801,0.19190404440994965,none,170
+PeMS08,absolute_bias,Absolute residual bias,Partial Spearman,0.3856763789268669,0.24460721411699038,0.5143257232179492,frozen validation node MAE,170
+PeMS08,residual_variability,Residual variability,Spearman,-0.45956363236668074,-0.5777484880667196,-0.31416280873805774,none,170
+PeMS08,residual_variability,Residual variability,Partial Spearman,-0.11094883182897272,-0.2674862903443215,0.08427453127650002,frozen validation node MAE,170
+PeMS08,lag1_strength,Lag-1 dependence,Spearman,0.22866616593694472,0.07651434124434181,0.37358793482781466,none,170
+PeMS08,lag1_strength,Lag-1 dependence,Partial Spearman,0.32298879137580777,0.16625849199155054,0.46110282914317247,frozen validation node MAE,170
+PeMS08,daily_strength,Daily recurrence,Spearman,0.5139575356769928,0.38618365690234535,0.6232600117967064,none,170
+PeMS08,daily_strength,Daily recurrence,Partial Spearman,0.4823948657711819,0.34325941555316974,0.5968190689318865,frozen validation node MAE,170
+PeMS08,weekly_strength,Weekly recurrence,Spearman,0.680233999548122,0.5731821644673382,0.7674673290981824,none,170
+PeMS08,weekly_strength,Weekly recurrence,Partial Spearman,0.576362812398604,0.44492264185931946,0.6888347654071926,frozen validation node MAE,170
+PeMS08,mean_flow,Mean traffic flow,Spearman,0.012512094815924026,-0.1460157305646524,0.1683568132900294,none,170
+PeMS08,mean_flow,Mean traffic flow,Partial Spearman,0.23455275944917547,0.08923859576633948,0.3694585081898788,frozen validation node MAE,170
+PeMS08,flow_variability,Traffic-flow variability,Spearman,0.1028967703725492,-0.05699026097616583,0.25886490654027144,none,170
+PeMS08,flow_variability,Traffic-flow variability,Partial Spearman,0.33086527425266743,0.18809016792393335,0.4610664118007984,frozen validation node MAE,170
+PeMS08,network_coherence,Network coherence,Spearman,0.3460372127673867,0.1847545636362043,0.4989452595314244,none,170
+PeMS08,network_coherence,Network coherence,Partial Spearman,0.12973580452749373,-0.04914469755739413,0.30264166980308305,frozen validation node MAE,170

@@ -1,0 +1,3 @@
+﻿dataset,initialization,MAE,RMSE,MAPE,ridge,percentage_power,history_source
+PeMS04,Validation zero initialization,17.88142967224121,29.44806480407715,11.745647430419922,100.0,1.0,none
+PeMS04,Chronological training-history state warm-up,17.869094848632812,29.43964958190918,11.755609512329102,100.0,0.5,ordered in-sample training predictions; no training label fits router coefficients
